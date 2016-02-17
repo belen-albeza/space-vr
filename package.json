@@ -1,0 +1,43 @@
+{
+  "name": "space-vr",
+  "version": "1.0.0",
+  "description": "WebVR demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belen-albeza/space-vr.git"
+  },
+  "keywords": [
+    "gamedev",
+    "games",
+    "webvr",
+    "vr"
+  ],
+  "author": "Belén \"Benko\" Albeza",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/belen-albeza/space-vr/issues"
+  },
+  "homepage": "https://github.com/belen-albeza/space-vr#readme",
+  "devDependencies": {
+    "babylonjs": "^2.3.0",
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "merge-stream": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "browser": {
+    "babylon": "./node_modules/babylonjs/babylon.max.js"
+  },
+  "browserify-shim": {
+    "babylon": "BABYLON"
+  }
+}
